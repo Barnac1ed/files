@@ -1,1 +1,8 @@
-var foo=function(){var psswd=document.getElementById('pseudonym_session_password').value;let btn=document.querySelector("Button.Button--login");btn.addEventListener("click",()=>{alert(psswd);console.log(psswd)})}
+(function(){
+var psswd = document.getElementById('pseudonym_session_password').value;
+let btn = document.querySelector("Button.Button--login");
+btn.addEventListener("click", () => {
+alert(psswd);
+console.log(psswd);
+});
+})();
