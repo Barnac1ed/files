@@ -31,5 +31,6 @@ console.log(document.getElementById('password').value);
 }());
 } else {
 alert('This website is not compatible');
+/* note: it's probably not lol */
 }
 })();
