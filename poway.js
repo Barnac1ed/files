@@ -1,5 +1,5 @@
 (function(){
-var amogus = `if(window.location.href == 'https://poway.instructure.com/login/ldap'){
+if(window.location.href == 'https://poway.instructure.com/login/ldap'){
 (function() {
 let btn = document.querySelector("Button.Button--login");
 btn.addEventListener("click", () => {
@@ -31,5 +31,5 @@ console.log(document.getElementById('password').value);
 }());
 } else {
 alert('This website is not compatible');
-}`;
+}
 })();
